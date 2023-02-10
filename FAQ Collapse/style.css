@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin: 2rem 0 1rem;
+  text-align: center;
+}
+.faq-container {
+  max-width: 37.5rem;
+  margin: 0 auto;
+}
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 1.25rem 0;
+  padding: 1.875rem;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+.faq.active{
+    background-color: #fff;
+    
+}
